@@ -2,7 +2,8 @@ body {
    background-image: url("base.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  background-position: center;
   margin: 0;
   padding: 0;
   height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
