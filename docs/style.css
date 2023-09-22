@@ -1,5 +1,6 @@
 body {
-  background-color: #000;
+   background-image: url("base.jpg");
+  background-size: contain;
   margin: 0;
   padding: 0;
   height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
@@ -17,7 +18,7 @@ body {
   justify-content: center;
 
   position: relative;
-  background-color: #000; /* Fondo negro para toda la página */
+
 
   /* Agrega una animación de pulsación */
   animation: pulsate 2s infinite;
@@ -27,7 +28,7 @@ body {
 .text-below {
     position: absolute;
     text-align: center;
-    color: #fff; /* Color del texto */
+    color: #000000; /* Color del texto */
     font-size: 25px; /* Tamaño del texto */
 }
 
