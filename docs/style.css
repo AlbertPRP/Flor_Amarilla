@@ -1,6 +1,7 @@
 body {
    background-image: url("base.jpg");
-  background-size: contain;
+   background-repeat: no-repeat;
+  background-size: cover;
   margin: 0;
   padding: 0;
   height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
